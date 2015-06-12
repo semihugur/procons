@@ -1,8 +1,12 @@
 <?php
 require_once(dirname(dirname(__FILE__)) . '/Model/TestModel.php');
 
-class TestHelper extends TestHelper
-{
+class TestHelper extends HelpersActionTestHelper {
+
+    /**
+     * It seems Action was named the wrong way.
+     */
+
 	public function hoverOnLoginDropdown() {
 		sleep(1);
 		$element = $this->byCssSelector('.login-dropdown');
