@@ -1,7 +1,7 @@
 <?php
 require_once(dirname(dirname(__FILE__)) . '/Model/TestModel.php');
 
-class TestHelper extends HelpersActionTestHelper {
+class TestHelper  Extends TestModel {
 
     /**
      * It seems Action was named the wrong way.
@@ -59,7 +59,7 @@ class TestHelper extends HelpersActionTestHelper {
 		return $id;
 	}
 
-	public function hoverOnBrands() {
+    public function hoverOnBrands() {
 		$this->hoverOnMDD();
 		$element = $this->byCssSelector('a.level-top:nth-child(1)');
 		$this->moveto($element);
