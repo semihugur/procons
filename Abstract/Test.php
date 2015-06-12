@@ -13,6 +13,7 @@ class Test
     }
 
     public function setTranslation($langCode) {
+        $translation = array();
     	$this->langCode = $langCode;
     	require(dirname(dirname(__FILE__)) . '/Translations/' . $langCode . '.php');
     	$this->translation = $translation[$langCode];
@@ -75,4 +76,3 @@ class Test
         return $this->I->$func($param);
     }
 }
-?>
