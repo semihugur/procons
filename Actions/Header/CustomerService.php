@@ -34,4 +34,3 @@ class HeaderActionsCustomerService extends GeneralActions {
         $this->iAmOn('Contact');
     }
 }
-?>

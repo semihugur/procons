@@ -73,4 +73,3 @@ class HeaderActionsUser extends GeneralActions {
     }
 
 }
-?>

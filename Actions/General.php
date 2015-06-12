@@ -6,4 +6,3 @@ class GeneralActions extends TestHelper
 {
 
 }
-?>

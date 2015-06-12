@@ -14,5 +14,4 @@ $translation["nl"] = array(
 	 "Contact" => "Contact",
 	 "SYSTEM_domain" => "http://example.com",
      "Register new" => "Register new"
- );
- ?>
+);

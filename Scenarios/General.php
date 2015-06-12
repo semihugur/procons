@@ -65,4 +65,3 @@ class GeneralScenario extends GeneralActions
         }
     }
 }
-?>

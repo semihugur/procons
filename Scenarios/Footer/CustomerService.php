@@ -41,5 +41,3 @@ class FooterScenarioCustomerService extends FooterActionsCustomerService {
         $this->goToContactPage();
     }
 }
-
-?>

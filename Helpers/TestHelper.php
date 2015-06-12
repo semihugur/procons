@@ -66,4 +66,3 @@ class TestHelper extends TestModel {
 		sleep(1);
 	}
 }
-?>

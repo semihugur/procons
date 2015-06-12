@@ -42,4 +42,3 @@ class HeaderActionsGeneral extends GeneralActions {
         $this->back();
     }
 }
-?>

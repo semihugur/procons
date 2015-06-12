@@ -21,4 +21,3 @@ class LocalInterface extends PHPUnit_Extensions_Selenium2TestCase
         $headerScenario->runGeneralScenario();
     }
 }
-?>

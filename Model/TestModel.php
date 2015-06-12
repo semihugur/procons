@@ -61,4 +61,3 @@ class TestModel extends Test
 		}
 	}
 }
-?>

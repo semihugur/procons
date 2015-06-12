@@ -13,5 +13,4 @@ $translation["fr"] = array(
 	 "FAQ" => "Questions fréquentes",
 	 "Contact" => "Contact",
 	 "SYSTEM_domain" => "http://example.com"
- );
- ?>
+);

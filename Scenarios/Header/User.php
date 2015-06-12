@@ -48,5 +48,3 @@ class HeaderScenarioUser extends HeaderActionsUser {
         $this->goToLogout();
     }
 }
-
-?>

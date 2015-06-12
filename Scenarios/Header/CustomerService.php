@@ -21,5 +21,3 @@ class HeaderScenarioCustomerService extends HeaderActionsCustomerService {
         $this->goToContactPage();
     }
 }
-
-?>

@@ -22,4 +22,3 @@ class HeaderScenarioGeneral extends HeaderActionsGeneral {
         $this->searchAndClickButton();
     }
 }
-?>
