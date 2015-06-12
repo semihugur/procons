@@ -7,11 +7,14 @@ class HeaderScenarioGeneral extends HeaderActionsGeneral {
 
     public $pageSpecificElements = array(
         'Homepage' 	=> '.home',
-        'SearchResults' => '.search > strong:nth-child(1)'
+        'SearchResults' => '.search > strong:nth-child(1)',
         'LoginOrRegister' => '.register.content-crumb',
         'Returns' => '.page-title h1',
         'Contact' => '.page-title h1',
     );
+    /**
+     *  There was a missing comma on line 10
+     */
 
     public function runHeaderScenarioGeneral() {
         $this->clickOnLogo();
