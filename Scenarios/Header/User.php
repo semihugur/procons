@@ -4,11 +4,8 @@ require_once(dirname(dirname(__FILE__)) . '/' . '../Actions/Footer/User.php');
 class HeaderScenarioUser extends HeaderActionsUser {
 
     public $login = "email@gmail.com";
-
     public $password = "TestPass1!";
-
     public $productToBuy = "masterdis-tube-laces-140cm-55119421";
-
     public $pageSpecificElements = array(
         'Homepage' 	=> '.home',
         'SearchResults' => '.search > strong:nth-child(1)',
