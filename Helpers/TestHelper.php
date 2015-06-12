@@ -1,7 +1,7 @@
 <?php
 require_once(dirname(dirname(__FILE__)) . '/Model/TestModel.php');
 
-class TestHelper  Extends TestModel {
+class TestHelper extends TestModel {
 
     /**
      * It seems Action was named the wrong way.
